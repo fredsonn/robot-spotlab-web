@@ -9,7 +9,7 @@ Resource            pages/elements.robot
 
 Abrir navegador
 
-    Open Browser                        about:blank       headlesschrome
+    Open Browser                        about:blank       headlesschrome        options=add_argument("no-sandbox"); add_argument("disable-dev-shm-usage")
     Set Window Size                     1440              900
     Set Selenium Implicit Wait          10
     Go To                               http://spotlab.herokuapp.com/
