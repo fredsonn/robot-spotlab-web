@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image "qaninja/pywd"
+            image "joyzoursky/python-chromedriver"
         }
     }
 
@@ -17,7 +17,7 @@ pipeline {
             }
             post {
                 always {
-                    robot "logs"
+                    robot otherFiles "**/*.png", outputPath: "logs"
                 }
             }
         }
