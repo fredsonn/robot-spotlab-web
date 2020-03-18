@@ -23,7 +23,7 @@ pipeline {
         }
         stage ("UAT") {
             steps {
-                input message: "Pode ir para produção?". ok: "Sim")
+                input message: "Pode ir para produção?", ok: "Sim")
                 echo "Simulando deploy em produção!"
             }
         }
