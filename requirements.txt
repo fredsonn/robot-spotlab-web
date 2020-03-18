@@ -3,4 +3,4 @@ pymongo
 robotframework
 robotframework-requests
 robotframework-jsonlibrary
-seleniumlibrary
+robotframework-seleniumlibrary
