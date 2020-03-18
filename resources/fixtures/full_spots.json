@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "thumb": "default.jpg",
+            "payload": {
+                "company": "Teste Dashboard 1",
+                "techs":    "java, node",
+                "price":    "20"
+            }
+        },
+
+        {
+            "thumb": "yahoo.jpg",
+            "payload": {
+                "company": "Teste Dashboard 2",
+                "techs":    "java, node",
+                "price":    "25"
+            }
+        },
+
+        {
+            "thumb": "google.jpg",
+            "payload": {
+                "company": "Teste Dashboard 3",
+                "techs":    "java, node",
+                "price":    "30"
+            }
+        },
+
+        {
+            "thumb": "acme.jpg",
+            "payload": {
+                "company": "Teste Dashboard 4",
+                "techs":    "java, node",
+                "price":    "30"
+            }
+        }        
+    ]
+}
